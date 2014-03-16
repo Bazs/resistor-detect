@@ -1,0 +1,3 @@
+violet_lab_pixeldata = zeros(length(violet_pixeldata, 3));
+[violet_lab_pixeldata(:,1), violet_lab_pixeldata(:,2), violet_lab_pixeldata(:,3)] =...
+    RGB2Lab(violet_pixeldata(:,1), violet_pixeldata(:,2), violet_pixeldata(:,3));
